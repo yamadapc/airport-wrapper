@@ -16,3 +16,4 @@ npm-debug.log
 scan.js
 scandata.json
 node_modules/
+.tern-port
