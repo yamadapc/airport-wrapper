@@ -25,12 +25,10 @@ describe('airport', function () {
       });
     });
 
-    it('the data is properly parsed', function() {
+    it('the data is properly parsed', function () {
       Object.keys(this.data).forEach((key) => {
         assert(key.indexOf(':') === -1, 'Parser left some ":"');
-        const value = this.data[key];
-        assert(value.indexOf(':') === -1, 'Parser left some ":"');
-      })
+      });
     });
   });
 });

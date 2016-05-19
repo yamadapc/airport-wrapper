@@ -13,10 +13,6 @@
     "q": "1.x.x"
   },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-watch": "~0.5.3",
     "mocha": "^2.4.5"
   },
   "keywords": [
@@ -31,7 +27,7 @@
   "main": "./lib/airport",
   "preferGlobal": "false",
   "scripts": {
-    "test": "node ./tests/test.js"
+    "test": "mocha -t 0"
   },
   "engines": {
     "node": ">= 0.8.x"
